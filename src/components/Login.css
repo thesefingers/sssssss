@@ -1,0 +1,47 @@
+.cap-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .h1con {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .cap-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .cap-container input {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  .cap-container button {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .cap-container p {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+  @media screen and (max-width: 940px) {
+    .cap-container input {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .cap-container button {
+        width: 80%;
+        max-width: 300px;
+    }
+}

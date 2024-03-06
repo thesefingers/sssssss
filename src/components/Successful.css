@@ -1,0 +1,26 @@
+.msg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconCheck {
+    width: 100px;
+    height: 100px;
+    color: blue;
+}
+
+.msg-two {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.goBack p {
+    margin-top: 50px;
+}
+
+.goBack a {
+    text-decoration: underline;
+}

@@ -1,0 +1,183 @@
+
+.wallet-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-message {
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+}
+
+.welcome-message h1 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.balance-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.balance-section h2 {
+    font-size: 35px;
+    margin-top: 20px;
+    
+}
+
+.balance-section .non-bold {
+    font-weight: lighter;
+}
+
+.action-buttons {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.withdraw button {
+    background-color: yellow;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    box-shadow: 5px 10px 15px gray;
+}
+.action-buttons button {
+    margin-right: 10px;
+    box-shadow: 0 5px 15px gray;
+}
+
+.crypto-cards {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.crypto-card {
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 200px;
+    border-radius: 30px 5px 30px 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 20px black;
+}
+
+.crypto-card .btn {
+    width: 40%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 22px;
+    margin: .4rem;
+    width: 350px;
+    height: 300px;
+    border-radius: 24px;
+    border: 1px solid #d3d3d3;
+    box-shadow: gray 5px 10px 25px;
+    text-align: center;
+}
+
+.card .btn {
+    background-color: #449e48;
+    border: none;
+}
+
+
+.card img {
+    width: 100px;
+    margin: auto;
+    padding: .2rem 0;
+}
+
+.featured .right .card:hover {
+    box-shadow: rgb(0 0 0 / 20%) 0px 8px 24px;
+}
+
+.featured .card .top {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured .right img {
+    width: 50px;
+    margin: auto;
+    padding: .2rem 0;
+}
+
+.featured .icon {
+    font-size: 36px;
+    margin: auto;
+    padding-top: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured span {
+    font-size: 22px;
+}
+
+
+.green {
+    color: var(--primary);
+}
+
+.red {
+    color: #ff0000;
+}
+
+
+
+
+@media screen and (max-width:1240px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: absolute;
+        flex-direction: column;
+        justify-content: start;
+        top: 90px;
+        right: -100%;
+        width: 50%;
+        height: 100vh;
+        transition: 0.4s;
+        z-index: 2;
+        background: #fff;
+        border-left: 1px solid #eee;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-menu li {
+        padding: 1rem;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-menu a {
+        font-size: 1.2rem;
+    }
+
+    .wallet-container h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .balance-section h2 {
+        text-align: center;
+        font-size: 23px;
+    }
+}
