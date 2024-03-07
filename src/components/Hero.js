@@ -14,7 +14,7 @@ const Hero = () => {
                     <p>Buy, Sell, and store hundreds of cryptocurrencies</p>
                     <div className='input-container'>
                         <input type='email' placeholder='Enter your email' />
-                        <button className='btn'>Learn More</button>
+                        <a href='https://murqs89r03g.typeform.com/to/nyVS6VkE' className='btn'>Learn More</a>
                     </div>
                 </div>
 
