@@ -37,6 +37,9 @@ const Footer = () => {
                     <span className='bar'> </span>
                         <a href='activenetwork@usako.net'><FaEnvelope className='icon'/></a>
                         <a href='+18028700314 '><FaPhoneAlt className='icon'/></a>
+                <div className='copyright'>
+                    &copy; 2023 <strong>SecureKrypt</strong> All Rights reserved
+                </div>
                 </div>
             </div>
             
