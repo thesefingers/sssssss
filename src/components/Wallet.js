@@ -38,7 +38,7 @@ const Wallet = () => {
           <h1>Welcome to your Wallet, {user ? user.email : 'Guest'}!</h1>
         </div>
         <div className="balance-section">
-          <h2>Your Account Balance: <span className="non-bold">$5000.00</span></h2>
+          <h2>Your Account Balance: <span className="non-bold">$0.00</span></h2>
         </div>
         <div className='withdraw'>
             <button className='btn'>Withdraw</button>
