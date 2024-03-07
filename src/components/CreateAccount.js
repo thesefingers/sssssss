@@ -5,18 +5,15 @@ import { useAuth } from '../context/AuthContext';
 const CreateAccount = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [setError] = useState('');
   const { createUser } = useAuth();
   const navigate = useNavigate()
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setError('');
     try {
       await createUser(email, password);
       navigate('/')
     } catch (e) {
-      setError(e.message);
       console.log(e.message);
     }
   };
