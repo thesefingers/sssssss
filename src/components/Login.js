@@ -45,6 +45,7 @@ const Login = () => {
       </form>
       {error && <p className="error-message">{error}</p>}
       <p>Don't have an account? <Link to='/createaccount'>Sign Up</Link></p>
+        <p> <Link to='/contact'>Forgot Password?</Link></p>
     </div>
   );
 };
