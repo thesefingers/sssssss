@@ -22,7 +22,7 @@ const CreateAccount = () => {
     <div>
       <div className='cap-container'>
         <div className='h1con'>
-          <h1>Sign Up!</h1>
+          <h1>Sign Up</h1>
         </div>
         <form onSubmit={handleSubmit}>
           <input
